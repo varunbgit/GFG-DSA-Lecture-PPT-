@@ -1,0 +1,98 @@
+<html>
+<head>
+<script>
+function lw()
+{
+    document.getElementById("d2").innerHTML = document.getElementById("textArea").value;
+
+}
+
+</script>
+
+<style>
+body{
+    background-image: url("THUMB.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+
+    display: block;
+    border: 2px solid greenyellow;
+    width: 30%;
+    height: 12%;
+    background: black;
+    font-size: 30px;
+    padding-top: 3%;
+    text-align: center;
+    color: greenyellow;
+    margin-left: 10%;
+}
+
+#d1 {
+
+border: 2px solid greenyellow;
+margin-right: 50%;
+width: 45%;
+height: 50%;
+position: absolute;
+color: greenyellow;
+
+
+}
+
+#d2{
+
+background: black;
+border: 2px solid greenyellow;
+margin-left:50%;
+position: absolute;
+width: 45%;
+height: 50%;
+color: greenyellow;
+
+}
+
+#output{
+
+    display: block; 
+    border: 2px solid greenyellow;
+    bottom: 60%;
+    width: 30%;
+    height: 12%;
+    background: black;
+    font-size: 30px;
+    padding-top: 3%;
+    text-align: center;
+    color: greenyellow;
+    margin-left: 60%;
+
+}
+
+</style>
+</head>
+<body>
+
+<p> Enter Your Script : </p>
+
+
+
+<div id="d1"> 
+            <textarea id="textArea" onkeyup="lw()" cols="81" rows="22" style="background-color: black; color: greenyellow;">
+
+	     </textarea>
+</div>
+
+
+
+<div id="output">Output Here :</div>
+<br>
+
+<div id="d2"> </div> 
+
+
+</body>
+
+
+</html>
