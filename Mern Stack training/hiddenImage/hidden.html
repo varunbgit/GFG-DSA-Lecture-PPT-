@@ -1,0 +1,25 @@
+<script>
+    var v = 0;
+    function hide(){
+     
+        if(v  ==0){
+        var img= document.getElementById("myP")
+        img.style.visibility = "hidden";
+        v = 1;
+        }else{
+            var img= document.getElementById("myP")
+            img.style.visibility = "visible";
+            v = 0;
+        }
+        
+    }
+    
+</script>
+
+<body>
+    <img src = "vb.jpg" id = "myP" height = 500px />
+    <br>
+    <button onclick = "hide()" >  Hiddddde me </button>
+
+
+</body>
